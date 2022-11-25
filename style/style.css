@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #d8e9e4
+}
+
+.primary-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 20px;
+    border: none;
+    padding: 6px
+}
+
+.body-element-margin {
+    margin: 5px;
+}
+
+#city {
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationBar {
+    background-color: #b8ded2;
+    width: 100%;
+    position: relative;
+}
+
+.city-shortcut-buttons {
+    margin-left: 5px;
+}
+
+.nav-search {
+    margin-right: 45px;
+    position: absolute;
+    right: 40%;
+    top: 0px;
+}
+
+.about-button {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+.navigationBar button:hover {
+    background-color: #edf5f2;
+}
+
+.forecast-div {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.forecast-table {
+    text-align: center;
+    display: inline-table;
+    margin: 0 10px 15px;
+}
